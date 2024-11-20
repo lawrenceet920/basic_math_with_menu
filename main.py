@@ -4,7 +4,7 @@
 
 import math
 import time
-
+# Functions:
 def calc_circle(radius):
     area = math.pi * radius ** 2
     return area
@@ -57,5 +57,7 @@ def main():
         else:
             print('invalid menu choice! Please enter a number between 1 and 4.')
         print()
+        
+# Begin Script
 if __name__ == '__main__':
     main()
